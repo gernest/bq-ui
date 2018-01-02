@@ -1,0 +1,3 @@
+package ui
+
+//go:generate go-bindata -o ui_gen.go  -pkg ui -prefix ../dist ../dist/...
