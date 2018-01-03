@@ -5,10 +5,12 @@ import App from './App'
 import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
+import Sidenav from './components/Sidenav.vue'
 
 Vue.config.productionTip = false
 
 Vue.use(ElementUI)
+Vue.component('side-nav', Sidenav)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
